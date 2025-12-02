@@ -17,12 +17,12 @@ spec:
       component: mongodb
       tier: db
     #pod definition
-    template:
-      metadata:
-        labels:
-          project: roboshop
-          component: mongodb
-          tier: db 
+  template:
+    metadata:
+      labels:
+        project: roboshop
+        component: mongodb
+        tier: db 
     spec:
       containers:
       - name: mongodb
