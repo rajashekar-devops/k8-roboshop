@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: debug
+  namespace: roboshop-demo
+  labels:
+    name: debug
+    project: roboshop
+spec:
+  containers:
+  - name: debug
+    debug: docker4rajashekar/debug:v1
+    imagePullPolicy: Always
