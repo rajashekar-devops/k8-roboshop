@@ -31,7 +31,7 @@ spec:
         readinessProbe:
           tcpSocket:
             port: 27017
-          iniateDelaySeconds: 10
+          initiateDelaySeconds: 10
           periodSeconds: 5
 ---
 apiVersion: v1
