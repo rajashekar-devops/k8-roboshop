@@ -27,7 +27,7 @@ spec:
       containers:
       - name: mongodb
         image: docker4rajashekar/mongodb:v1
-        imagepullPolicy: Always
+        imagePullPolicy: Always
         readinessProbe:
           tcpSocket:
             port: 27017
