@@ -126,7 +126,7 @@ metadata:
   name: frontend
   namespace: roboshop-demo
 spec:
-  type: LocaBalancer
+  type: LoadBalancer
   selector:
     project: roboshop
     component: frontend
