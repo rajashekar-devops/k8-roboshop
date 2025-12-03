@@ -9,5 +9,5 @@ metadata:
 spec:
   containers:
   - name: debug
-    debug: docker4rajashekar/debug:v1
+    image: docker4rajashekar/debug:v1
     imagePullPolicy: Always
