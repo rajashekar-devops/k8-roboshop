@@ -33,6 +33,10 @@ spec:
       containers:
       - name: catalogue
         image: docker4rajashekar/catalogue:v1
+        imagePullPolicy: Always
+        envFrom:
+        - configMapRef:
+            name: catalogue
         ports:
         - name: liveness-port
           containerPort: 8080
